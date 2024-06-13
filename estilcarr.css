@@ -1,0 +1,465 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*
+.body {
+   /* background-image: url('Imagenes/Sin\ título.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}*/
+
+#lea{
+    position: flex;
+    display: center;
+    min-height: 500vh;
+   /* background: #dd97ce;*/
+    background-image: url('Imagenes/Sin título.png');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container-slider{
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+                
+}
+.slider{
+    display: flex;
+    width: 1705%;
+    height: 500px;
+    margin-left: -100px;
+    width: calc(100% * 17);
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.slider-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_img  {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+
+.slider_img{
+    display: block;
+    width: 80%;
+    height: auto;
+    object-fit: cover ;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: -5px 0 15px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 242, 81);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+   z-index: 10;
+}
+
+.slider_btn:hover {
+    background: #ec63cf;
+}
+
+.slider_btn--left{
+    left: 10px;
+   top: 50%;
+    transform: translateY(-50%);
+}
+.slider_btn--right{
+    right: 10px;
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+
+/*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*/
+/*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*/
+
+.container-slider2{
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+                
+}
+.slider2{
+    display: flex;
+    width: 1305%;
+    height: 500px;
+    margin-left: -100px;
+    width: calc(100% * 13 );
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.slider2-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_img2  {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+
+.slider_img2{
+    display: block;
+    width: 80%;
+    height: auto;
+    object-fit: cover ;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: -5px 0 15px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+.slider2_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 242, 81);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+   z-index: 10;
+}
+.slider2_btn:hover {
+    background: #ec63cf;
+}
+
+.slider2_btn--left{
+    left: 10px;
+   top: 50%;
+    transform: translateY(-50%);
+}
+.slider2_btn--right{
+    right: 10px;
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*COMIC VOLUMEN 3 DE 12 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*/
+/*COMIC VOLUMEN 3 DE 12 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*//*COMIC VOLUMEN 3 DE 13 PAGINA*/
+.container-slider2{
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+                
+}
+.slider2{
+    display: flex;
+    width: 1205%;
+    height: 500px;
+    margin-left: -100px;
+    width: calc(100% * 12 );
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.slider2-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_img2  {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+
+.slider_img2{
+    display: block;
+    width: 80%;
+    height: auto;
+    object-fit: cover ;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: -5px 0 15px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+.slider2_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 242, 81);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+   z-index: 10;
+}
+.slider2_btn:hover {
+    background: #ec63cf;
+}
+
+.slider2_btn--left{
+    left: 10px;
+   top: 50%;
+    transform: translateY(-50%);
+}
+.slider2_btn--right{
+    right: 10px;
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*//*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*//*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*/
+/*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*//*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*//*COMIC VOLUMEN 4 y 6 DE 10 PAGINA*/
+.container-slider3{
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+                
+}
+.slider3{
+    display: flex;
+    width: 1005%;
+    height: 500px;
+    margin-left: -100px;
+    width: calc(100% * 10 );
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.slider3-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_img3  {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    display: block;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+
+.slider_img3{
+    display: block;
+    width: 80%;
+    height: 60%;
+    object-fit: cover ;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: -5px 0 15px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+.slider3_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 242, 81);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+   z-index: 10;
+}
+.slider3_btn:hover {
+    background: #ec63cf;
+}
+
+.slider3_btn--left{
+    left: 10px;
+   top: 50%;
+    transform: translateY(-50%);
+}
+.slider3_btn--right{
+    right: 10px;
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/*COMIC VOLUMEN 5 DE 8 PAGINA*//*COMIC VOLUMEN 5 DE 8 PAGINA*//*COMIC VOLUMEN 5 DE 8 PAGINA*/
+/*COMIC VOLUMEN 5 DE 8 PAGINA*//*COMIC VOLUMEN 5 DE 8 PAGINA*//*COMIC VOLUMEN 5 DE 8 PAGINA*/
+.container-slider4{
+    align-items: center;
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+
+                
+}
+.slider4{
+    display: flex;
+    width: 805%;
+    height: 500px;
+    margin-left: -100px;
+    width: calc(100% * 8 );
+    overflow: hidden;
+    transition: all 0.5s;
+}
+.slider4-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+.slider_img4 {
+    align-items: center;
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+}
+
+.slider_img4{
+    display: block;
+    width: 80%;
+    height: auto;
+    object-fit: cover ;
+    box-shadow: 0 0 20px 10px rgb(255, 255, 255);
+    box-shadow: -5px 0 15px 10px rgb(255, 255, 255);
+}
+.slider_imgp{
+    object-fit: cover; 
+    width: 100%; 
+    height: 100%; 
+}
+.slider4_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgb(253, 242, 81);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+   z-index: 10;
+}
+.slider4_btn:hover {
+    background: #ec63cf;
+}
+.slider4_btn--left{
+    left: 10px;
+   top: 50%;
+    transform: translateY(-50%);
+}
+.slider4_btn--right{
+    right: 10px;
+   position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}

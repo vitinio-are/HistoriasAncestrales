@@ -1,0 +1,64 @@
+input:focus~barra::before{
+    width: 100%;
+}
+
+.warnings{
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    color: #B06AB3;
+    padding-top: 20px;
+}
+
+button{
+    font-family: 'roboto';
+    background: #4568DC;
+    background: -webkit-gradient(to right, #B06AB3,#4568DC);
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+}
+:root{
+    --colorTextos: #49454567
+}
+*,
+::before,
+::after{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.rectangulo{
+    font-family: 'Roboto';
+    background: #456BDC;
+    background: -webkit-linear-gradient(to right, #B06AB3, #456BDC);
+    background: linear-gradient(to right, #B06AB3, #456BDC);
+    height:550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-weight: 700;
+}
+
+form{
+    background: #fff ;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rbga(255,255,0.8);
+    border-radius: 10px;
+    width: 100%; 
+}
+.form .grupo{
+    position: relative;
+    margin: 45px;
+}
+input{
+    background:none
+   
+    font-size 18px;
+    padding: 10px 10px 10px 5px;
+    display: block; 
+    width: 100%;
+    border: none;
+}

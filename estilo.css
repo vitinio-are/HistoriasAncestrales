@@ -1,0 +1,448 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Shippori+Mincho&family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:ital,wght@0,400..800;1,400..800&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+#bod{
+    background-color: #7ac6da94;
+}
+#menu{
+    margin: auto;
+    width: 600px;
+        margin: auto;
+        position: fixed;
+        width: 100%;
+        z-index: 1000; 
+        background-color: #6783b6e5;
+        font-family: "Sorts Mill Goudy", serif;
+        font-size: 20px;
+}
+.recuadro {
+    display: flex;
+    justify-content: center; 
+}
+.recuadro > li  {
+    float: relative;   
+}
+ul, ol{
+    list-style-type: none;
+}
+
+.recuadro  li a {
+    background-color: #6783b6;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+.recuadro li a:hover{
+    background-color: #48ccc1;
+}
+
+.recuadro li ul{
+        display: none;
+        position: absolute;
+        min-width: 140px;
+        z-index: 1000; 
+}
+.recuadro li:hover >ul{
+    display: block;
+}
+.recuadro li ul li {
+    position: relative;
+}
+.recuadro li ul li a{
+    padding: 10px;
+}
+
+.table{
+    width: 150px;
+}
+
+/*ESTILO PARA EL ENCABEZADO  */
+header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('Imagenes/fondo1.png') no-repeat center center/cover;
+}
+
+.overlayd {
+    position: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.103); /* Capa transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 253, 253, 0.1); /* Ligera capa blanca para mayor legibilidad */
+    border-radius: 8px;
+    max-width: 80%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Capa transparente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-boxdp {
+    color: #1f1c1c;
+    text-align: center;
+    padding: 20px;
+    background: rgba(133, 159, 189, 0.582); /* Ligera capa blanca para mayor legibilidad */
+    border-radius: 8px;
+    max-width: 70%;
+    font-family: "Playfair Display", serif;
+}
+
+.divisor {
+    margin: 0;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+.divisorp {
+    font-size: 1.0em;
+    text-align: center;
+}
+/*ESTILO PARA EL TITULO Y PARRAFOS DEL CONTENNIDO*/
+.instruction{
+    font-size: 20px;
+    font-family: "Rethink Sans", sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#button{
+    font-size: 35px;
+    font-family: "Sorts Mill Goudy", serif;
+}
+.tbody{
+    font-size: 20px;
+}
+
+.parra{
+    /*parrafo de los comics*/
+    font-size: 20px;
+    font-family: "Sorts Mill Goudy", serif;
+    color: #1f1c1c;
+}
+.parracb{
+    font-size: 25px;
+    font-family: "Sorts Mill Goudy", serif;
+}
+
+.subtitulos{ /*h2*/
+    margin: 0;
+    font-size: 30px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+}
+.Tcont{ /*h3*/
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+/*ESTILO PARA EL APARTADO DE INFORMACION CON SELECTOR DE IMAGENES*/
+.container {
+    display: flex;
+}
+
+.left, .right {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+   
+   /* background:  rgb(217, 212, 218)*/
+}
+.right{
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+#culture-selector{
+    
+    position: relative;
+    text-align: center;
+
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 2px solid rgb(104, 104, 104);
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+}
+.tap{
+    background:  rgb(217, 212, 218)
+}
+
+#period-info, #culture-selector, #culture-info {
+    margin-top: 20px;
+    font-size: 20px;
+    font-family: "Rethink Sans", sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+/*ESTIO PARA LA PAGINA DE LOS CONTACTOS*/
+.hero_title {
+    font-size: 24px; 
+    color: #333333; 
+    margin-bottom: 10px; 
+}
+.hero_img {
+    margin: 10px; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.element {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.element-2{
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+.logos {
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.perf{
+    background-color: #91b9ee;
+}
+.hero{
+    height: 100vh;
+    min-height: 100%;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 3rem;
+    align-items: hidden;
+    overflow: hidden;
+}
+.hero--reverse{
+    flex-direction: row-reverse;
+}
+.hero_title{
+    font-size: 4rem;
+}
+.hero img{
+    width: 300px;
+    height: 400px;
+    margin: 10px; /* Margen alrededor de la imagen */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2); /* Sombra con color */
+}
+.hero_img:hover {
+    filter: brightness(110%); /* Cambio de brillo al pasar el mouse */
+}
+
+[data-animation="fade"]{
+    opacity: 0;
+    transform: translate(100%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: translate(0)
+}
+[data-animation="show"]{
+    opacity: 0;
+    transform: scale(0);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: scale(1)
+}
+[data-animation="up"]{
+    opacity: 0;
+    transform: translateY(100%);
+    transition: .6s ease-in .3s;
+
+    --opacity: 1;
+    --transform: translateY(0)
+}
+
+.unset {
+    opacity: var(--opacity);
+    transform: var(--transform);
+}
+
+.lasleyendas {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+
+/*ESTILO PARA LAS IMAGENES DE ROBLOX  */
+.tarjetass{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    /*background-color: rgba(219, 163, 207, 0.342);*/
+} 
+.cards{
+    position:relative;
+    width: 450px;
+    height: 250px;
+    margin: 10px;
+}
+.cards .face{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.cards .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #383838;
+}
+
+.cards .front img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards .front .r{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;  
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.cards .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(135, 162, 179);
+    padding: 15px;
+    color: #fffcfc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.cards .back h3{
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.cards .back p{
+    letter-spacing: 3px;
+}
+.cards:hover .front{
+    transform: perspective(600px)rotateY(180deg);
+}
+.cards:hover .back{
+    transform: perspective(600px)rotateY(360deg);
+}
+
+
+
+
+/* ESTILO PARA LAS IMAGENES DE LOS COMICS */
+.lasleyendas {
+    text-align: center;
+}
+
+.galeria {
+    display: inline-block;
+    margin: 10px;
+    vertical-align: top;
+    width: 350px; /* Ajusta el ancho según sea necesario */
+}
+
+.fotos {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.fotos img {
+    width: 200px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.fotos img:hover {
+    transform: scale(1.1);
+}
+
+.fotos p {
+    margin: 5px 0;
+
+}
+
+.parra{
+    text-align: justify;
+    color: #5f1950;
+}
+
+.Titl{
+    color: #d30000;
+}
+
+

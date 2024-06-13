@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleregis.css">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+
+<div class="rectangulo">
+    <form action="" method="POST" id="form">
+        <div class="form">
+            <h1>Registro</h1>
+        <div class="grupo">
+            <input type="text" name="" id="name"><span class="barra"></span>
+                <label for="">Nombre</label>           
+    </div>
+    <div class="grupo">
+        <input type="email" name="" id="email"><span class="barra"></span>
+            <label for="">Email</label>           
+</div>
+<div class="grupo">
+    <input type="contraseña" name="" id="contraseña"><span class="barra"></span>
+        <label for="">Contraseña</label>           
+</div>
+<button type="submit"> Registrarse </button>
+    <p class="warnings" id="warnings"></p>           
+</div>
+                <script>
+                    let regex = /forma/
+                    let str = "forma alguna forma de hacer esto"
+                    imprimir(str,regex);
+
+                regex /[ia]/
+
+                str = "como estuvo?"
+                imprimir(str,regex)
+
+                function imprimir (str,regex){
+                    console.log(regex.test(str))
+                    console.log(str.match(regex))
+                }
+                </script>
+
+<script src="registro.js"></script>
+</div>
+    
+
+</body>
+</html>
